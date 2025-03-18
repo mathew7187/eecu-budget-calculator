@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+}
+
+select {
+    width: 10rem;
+    height: 2rem;
+    border-radius: 15px;
+}
+
+section.finance-info {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    font-size: 24px;
+    background-color: rgba(36, 146, 193, 0.5);
+
+}
+
+section.finance-details {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    font-size: 20px;
+    background-color: rgb(201, 255, 255);
+}
+
+section.finance-details section {
+    width: 30vw;
+    text-align: center;
+    background-color: rgb(201, 255, 255);
+}
+
+canvas {
+    width: 50%;
+    /* border: 10px solid whitesmoke; */
+    height: 100%;
+}
+
+.canvas {
+    display: flex;
+    justify-content: center;
+}
+
+.piecontainer {
+    position: relative;
+}
+
+#to-calculator {
+    margin-left: 97%;
+    margin-right: 2.5rem;
+    height: 3vw;
+    width: 3vw;
+    font-size: 50px;
+    color: white;
+    background-color: dodgerblue;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+#to-Home {
+    margin-left: 97%;
+    margin-right: 2.5rem;
+    height: 3vw;
+    width: 3vw;
+    font-size: 50px;
+    color: white;
+    background-color: dodgerblue;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+
+#mychart {
+    padding: 1em;
+    width: 100px;
+    height: 100px;
+}
+
+#page2 {
+    display: none;
+}
+
+#needs,
+#wants,
+#savings {
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+}
+
+#cost-input {
+    display: flex;
+    justify-content:  space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+#cost-input input {
+    width: 10rem;
+    border-radius: 15px;
+}
+
+#calculator-layout {
+    display: flex;
+    flex-direction: row;
+}
+
+.button{
+    display: flex;
+    background-color: dodgerblue;
+    height: 0;
+    width: 0;
+}
+
+#to-last-page {
+    margin-right: 2.5rem;
+    height: 3vw;
+    width: 3vw;
+    font-size: 50px;
+    color: white;
+    background-color: dodgerblue;
+    padding: 1rem;
+    border-radius: 1rem;
+    border-bottom: 1rem;
+}
+
+#costsChart {
+    width: 20rem;
+    font-weight: normal;
+}
+
+.text {
+    justify-content: space-between;
+}
+
+.budget-calculator-results-circle {
+    background-color: grey;
+    width: 3300px;
+    height: 300px;
+    border-radius: 50%;
+    align-self: center;
+}
+
+#after-tax-income text {
+    width: 10rem;
+    border-radius: 25px;
+}
+
+.calculator {
+     align-items: flex-end;
+}

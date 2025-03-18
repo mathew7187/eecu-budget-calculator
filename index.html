@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+</html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>50/30/20 Budget Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="/app.js"></script>
+</head>
+<body>
+    <header id="head">
+        <script src="app.js">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.8/dist/chart.umd.min.js">
+        </script>
+        <div id="graph">
+            <canvas id="myChart"></canvas>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script>
+            const ctx = document.getElementById('myChart');
+            new Chart(ctx, {
+                type: 'pie',
+                data: {
+                    labels: ['Needs', 'Wants', 'Savings'],
+                    datasets: [{
+                        label: 'Percentage of Monthly Income',
+                        data: [50, 30, 20],
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    maintainAspectRatio: false,
+                    plugins: {
+
+                        scales: {
+                            y: {
+                                beginAtZero: true
+                            }
+                        }
+                    }
+                }
+            });
+        </script>
+        </div>
+    </header>
+    <section id="page1">
+        <section class="finance-info">
+            <article>
+                <h3>50% Needs</h3>
+            </article>
+            <article>
+                <h3>30% Wants</h3>
+            </article>
+            <article>
+                <h3>20% Savings</h3>
+            </article>
+        </section>
+        <section class="finance-details">
+            <section class="one-detail">
+                <p>Things you must have or can't live without.</p>
+            </section>
+            <section class="one-detail">
+                <p>Things you can cut back on or do without.</p>
+            </section>
+            <section class="one-detail">
+                <p>Money you save for future goals.</p>
+            </section>
+            <section class="one-detail">
+                <p>Examples; Housing, Groceries, Utilities, Transportation, Child Care, Debt Payments.</p>
+            </section>
+            <section class="one-detail">
+                <p>Examples; Entertainment, Dining Out, Clothing, Splurges.</p>
+            </section>
+            <section class="one-detail">
+                <p>Examples; Emergency Fund, Home, Vacation, Retirement, Financial Freedom.</p>
+            </section>
+
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Budget Calculator</title>
+            <link rel="stylesheet" href="style.css">
+            <link href="index.html">
+            <script src="/app.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.8/dist/chart.umd.min.js">
+                // <a id="to-Home" href="/index.html"><img src="svg/next.svg"/></a>
+            </script>
+            <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        </head>
+        <body>
+            <section id="Budget">
+            <section class="Calculator">
+                <h1>How often do you receive your income?</h1>
+                <select>
+                    <option></option>
+                    <option>Weekly</option>
+                    <option>Every Other Week</option>
+                    <option>Twice a month</option>
+                    <option>Once a month</option>
+                    <option>Twice a month</option>
+                </select>
+                <div class="after_tax">
+                    <label for="after-tax income?">What is your after-tax income?</label>
+                <span class="currency_data notranslate">
+                    $
+                    <input name="after_tax" tavindex="0" id="after_tax" type="text" inputmode="numeric" value="" maxlength="9">
+                </span>
+            </section>
+            <section class="calculator">
+            <div id="calculator-layout">
+                <div id="cost-input">
+                    <section id="needs">
+                        <h2>Needs:</h2>
+                        <h3>Housing</h3>
+                        <input text="text">
+                        <h3>Utilities </h3>
+                        <input text="text">
+                        <h3>Food</h3>
+                        <input type="text">
+                        <h3>Basic Utilities</h3>
+                        <input type="text">
+                        <h3>Insurance</h3>
+                        <input type="text">
+                        <h3>Groceries</h3>
+                        <input type="text">
+                        <h3>Transportation</h3>
+                        <input type="text">
+                        <h3>Childcare</h3>
+                        <input type="text">
+                        <h3>Healthcare</h3>
+                        <input type="text">
+                        <h3>Minimum Loan Payments</h3>
+                        <input type="text">
+                        <h3>Student Loan Payments</h3>
+                        <input type="text">
+                        <h3>Other Debt Payments</h3>
+                        <input type="text">
+                    </section>
+                    <section id="wants">
+                        <h2>Wants:</h2>
+                        <h3>Entertainment</h3>
+                        <input type="text">
+                        <h3>Dining Out</h3>
+                        <input type="text">
+                        <h3>Travel</h3>
+                        <input type="type">
+                        <h3>Monthly Subscriptions</h3>
+                        <input type="type">
+                        <h3>Hobbies</h3>
+                        <input type="text">
+                        <h3>Shopping {Designer Clothes, Home Items and other goods}</h3>
+                        <input type="type">
+                        <h3>Gym Memberships</h3>
+                        <input type="type">
+                        <h3>Splurges</h3>
+                        <input type="text">
+                    </section>
+                    <section id="savings">
+                        <h2>Savings:</h2>
+                        <h3>Emergency Fund</h3>
+                        <input type="text">
+                        <h3>Retirement</h3>
+                        <input type="text">
+                        <h3>Debt {Loan Payments}</h3>
+                        <input type="type">
+                        <h3>Vacation/Travel</h3>
+                        <input type="text">
+                    </section>
+                </div>
+                <div class="budget-calculator-results-circle">
+                </div> 
+            <section>
+
+            </section>
+            </script>
+        </body>
+        </html>
+    </section>
+</body>
+</html>
